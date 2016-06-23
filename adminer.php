@@ -1,3 +1,4 @@
+3
 <?php
 /** Adminer - Compact database management
 * @link https://www.adminer.org/
