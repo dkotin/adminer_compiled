@@ -1,5 +1,7 @@
 #!/bin/sh
-git clone git://git.code.sf.net/p/adminer/git;
+path=`dirname "$0"`
+cd "$path"
+git clone git://git.code.sf.net/p/adminer/git
 cd git
 git pull origin master
 php compile.php

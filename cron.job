@@ -1,1 +1,1 @@
-0 */12 * * *  /var/www/adminer_compiled/compile.sh
+0 */12 * * *  /var/www/adminer_compiled/compile.sh > /tmp/adminercompile.txt 2>&1
