@@ -13,5 +13,3 @@ date=`date +'%Y-%m-%d %H:%m'`
 message="$date $version"
 git commit -m "$message"
 git push origin master
-
-
