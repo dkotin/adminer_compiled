@@ -9,7 +9,7 @@ cd ..;
 cp git/adminer-*.php adminer.php;
 git add adminer.php;
 version=`cat < git/adminer/include/version.inc.php | grep VERSION`
-date=`date +'%Y-%m-%d %H:%m'`
+date=`date +'%Y-%m-%d %H:%M'`
 message="$date $version"
 git commit -m "$message"
 git push origin master
