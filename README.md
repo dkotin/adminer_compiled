@@ -1,0 +1,1 @@
+Autocompiled latest adminer
