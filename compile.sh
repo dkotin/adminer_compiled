@@ -8,8 +8,10 @@ echo "$version"
 cd ..;
 cp git/adminer-*.php adminer.php;
 git add adminer.php;
-message=`cat < git/adminer/include/version.inc.php | grep VERSION`
-git commit -m "$message";
-git push origin master;
+version=`cat < git/adminer/include/version.inc.php | grep VERSION`
+date=`date +'%Y-%m-%d %H:%m'`
+message="$date $version"
+git commit -m "$message"
+git push origin master
 
 
